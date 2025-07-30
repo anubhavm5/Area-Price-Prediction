@@ -7,7 +7,7 @@ def mydeploy():
     area=st.number_input("Enter Your Area")
     pred=st.button("Predict Price")
     if pred:
-        df = pd.DataFrame({ "Area": [area] })
+        df = pd.DataFrame({ "area": [area] })
         x=model1.predict(df)
         st.write("The Price of Area:",round(x[0],4))
     
