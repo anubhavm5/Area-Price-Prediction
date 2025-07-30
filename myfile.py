@@ -1,4 +1,5 @@
 import pickle
+import pandas as pd
 import streamlit as st
 model1=pickle.load(open("AreaPrice.pkl","rb"))
 
