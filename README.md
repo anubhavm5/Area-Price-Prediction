@@ -8,4 +8,4 @@ This is a simple Streamlit app that predicts the price of an area (e.g., square 
 - 🧮 Built with Streamlit for an interactive UI
 
 # Click On link to See the Model:
-area-price-prediction-jwydatnsbkycwapuxkb2gd.streamlit.app
+https://area-price-prediction-jwydatnsbkycwapuxkb2gd.streamlit.app/
