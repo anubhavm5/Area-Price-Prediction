@@ -5,7 +5,7 @@ model1=pickle.load(open("AreaPrice.pkl","rb"))
 
 def mydeploy():
     st.title("Area Price Prediction")
-    area=st.number_input("Enter Your Area")
+    area=st.number_input("Enter Your Area",min_value=0,step=100)
     pred=st.button("Predict Price")
     if pred:
         df = pd.DataFrame({ "area": [area] })
